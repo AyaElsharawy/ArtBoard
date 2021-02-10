@@ -1,0 +1,33 @@
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Board</title>
+    <link rel="stylesheet" href="ArtBoard.css">
+</head>
+<body>
+   
+
+    <div id="container">
+        <div id="colorContainer">
+            <label id="changeFill" for="changeFill">Fill Styele</label>
+            <input type="color" name="changeFill" id="FillStyle">
+            <label id="changeStroke" for="changeStroke">Stroke Styele</label>
+            <input type="color" name="changeStroke" id="StrokeStyle">
+        </div>
+        
+        <div id="btnSelector">
+            <button type="button" id="circle"></button>
+            <button type="button" id="rect"></button>
+            <button type="button" id="line"></button>
+            <button type="button" id="Erase"></button>
+            <button type="button" id="FreeHand"></button>
+        </div>
+       
+        
+        <canvas id="my-canvas" width=200 heigt="100"></canvas>
+    <script src="ArtBoard.js"></script>
+    </div>
+</body>
+</html>
