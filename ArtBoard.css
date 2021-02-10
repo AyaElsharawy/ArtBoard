@@ -1,0 +1,119 @@
+#container{
+     width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 1px dotted black;
+    position: relative;
+    top:100px;
+}
+#colorContainer{
+    position: fixed;
+    top: 150px;
+    left: 198px;
+    width: 11%;
+    height: 500px;
+    border: 2px  #F28150  solid;
+    text-align: center;
+    background-color: antiquewhite;
+}
+#changeFill{
+   color:  rgb(217, 93, 39);
+   position: fixed;
+   top: 190px;
+   left: 245px;
+   font-size: larger;
+   font-weight: bold;
+}
+#FillStyle{
+    display: block;
+    margin: 100px 40px;
+    width: 50%;
+    height: 10%;
+}
+#changeStroke{
+   color: rgb(217, 93, 39);
+   font-size: larger;
+   font-weight: bold;
+}
+#StrokeStyle{
+    display: block;
+    margin: 50px 40px;
+    width: 50%;
+    height: 10%;
+}
+
+
+#btnSelector{
+    position: fixed;
+    top: 15px;
+    left: 450px;
+    border: 2px rgb(68, 116, 130) solid;
+    width: 600px;
+    height: 10%;
+    padding: 15px 40px;
+    margin: 17px -44px;
+    background-color: antiquewhite;
+}
+
+  #Erase{
+    background: url(Erase.PNG);
+    position: fixed;
+    top:50px;
+    left:930px;
+  }
+ 
+  #circle
+  {
+      background: url(circle.png);
+      position: fixed;
+      top:50px;
+      left:780px;
+  }
+  
+  #rect
+  {
+      background: url(rect.png);
+      position: fixed;
+      top:50px;
+      left:670px
+  }
+  
+  #line
+  {
+      position: fixed;;
+      background: url(line.PNG);
+      top:50px;
+      left:550px
+  }
+  #FreeHand{
+    position: fixed;;
+    background: url(Freehand.PNG);
+    top:50px;
+    left:420px
+   } 
+  
+  
+  #line,#rect,#circle,#FreeHand,#Erase
+  {
+      width: 100px;
+      height: 50px;
+      background-position: center; 
+      background-size: contain;
+      border: rgb(68, 116, 130) 2px solid;
+  }
+  
+  canvas
+  {
+      position: fixed;
+      top:100px;
+      border: 2px #F28150 solid;
+      margin-left: -105px;
+      width: 800px;
+      height: 500px;
+      margin: 0 auto;
+      margin-top: 50px;
+  }
+  
+  
+  
